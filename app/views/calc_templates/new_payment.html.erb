@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Payment Calculation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <div>
+      <a href="/">Home</a>
+    </div>
+
+    <h1>New Payment Calculation</h1>
+
+    <form action="/payment/results">
+      <div>
+        <label for="user_apr">APR (%)</label>
+      </div>
+      <div>
+        <input type="text" name="apr" id="user_apr" placeholder="Enter APR">
+      </div>
+
+      <div>
+        <label for="user_years">Number of years</label>
+      </div>
+      <div>
+        <input type="text" name="years" id="user_years" placeholder="Enter number of years">
+      </div>
+
+      <div>
+        <label for="user_principal">Principal</label>
+      </div>
+      <div>
+        <input type="text" name="principal" id="user_principal" placeholder="Enter principal">
+      </div>
+      <button>Calculate monthly payment</button>
+    </form>
+  </body>
+</html>

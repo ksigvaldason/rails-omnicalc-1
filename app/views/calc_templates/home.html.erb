@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Target: Omnicalc-1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <strong>Calculators</strong>
+        </td>
+        <td>
+          <a href="/square/new">Square with Form</a>
+        </td>
+        <td>
+          <a href="/square_root/new">Square Root with Form</a>
+        </td>
+        <td>
+          <a href="/payment/new">Payment with Form</a>
+        </td>
+        <td>
+          <a href="/random/new">Random with Form</a>
+        </td>
+      </tr>
+    </table>
+
+    <form action="/square/results">
+      <div>
+        <label for="user_number">Enter a number</label>
+      </div>
+      <div>
+        <input type="text" name="number" id="user_number" placeholder="What number do you want to take the square of?">
+      </div>
+      <button>Calculate square</button>
+    </form>
+  </body>
+</html>

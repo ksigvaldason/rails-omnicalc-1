@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <div>
+      <a href="/">Home</a>
+    </div>
+
+    <h1>Payment Results</h1>
+
+    <p>
+      A <%= @years %> year loan of <%= @formatted_principal %> with an interest rate of <%= @formatted_apr %> requires a monthly payment of <%= @formatted_payment %>.
+    </p>
+  </body>
+</html>
